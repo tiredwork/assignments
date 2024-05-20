@@ -1,0 +1,22 @@
+{
+  "games": [
+    {
+      "name": "Pokémon HeartGold and SoulSilver",
+      "platforms": "Nintendo DS",
+      "genre": "Role-playing",
+      "description": "I am a huge fan of the Pokémon series, and this game in particular is my favourite because of the amount of content it provides with the battles and the Pokémon you can get. it also has some of the best music in the whole series and the games are beloved by many fans."
+    },
+    {
+      "name": "Grand Theft Auto IV",
+      "platforms": "PlayStation 3, Xbox 360, Windows",
+      "genre": "Action-adventure",
+      "description": "I am also a huge fan of the Grand Theft Auto series, and this game, while it is older than Grand Theft Auto V, I think the more gritter and darker tone of this game, along with its better physics engine for characters and vehicles, makes this game overall better."
+    },
+    {
+      "name": "Minecraft",
+      "platforms": "Windows, macOS, Linux, Android, iOS, Xbox 360, PlayStation 3, PlayStation 4, Xbox One, Nintendo Switch",
+      "genre": "Sandbox, survival",
+      "description": "If I ever had to take a game with me to a desert island, Minecraft would be that game, it offers infinite amount of playability thanks to its open, randomly generated lands it provides for you to explore and build in."
+    }
+  ]
+}

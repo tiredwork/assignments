@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Assignment 1 - Picture Quiz</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css"
+            href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="./css/style.css">
+    </head>
+    <body>
+        <div class="ui grid container centered">
+            <div class="twelve wide computer mobile tablet column">
+                <h1 class="ui header centered padded">Picture Quiz</h1>
+                <div id="quiz" class="ui centered card padded">
+                    <!-- Quiz content will be generated here -->
+                </div>
+                <div class="ui grid container centered padded">
+                    <button id="submit" class="ui primary button">Submit Quiz</button>
+                </div>
+                <div id="results" class="ui message hidden centered">
+                    <!-- Quiz results will be displayed here -->
+                </div>
+            </div>
+            <script src="./js/quiz.js"></script>
+    </body>
+</html>

@@ -1,0 +1,47 @@
+<object-stream>
+  <list>
+    <Game>
+      <platform>jj</platform>
+      <name>hh</name>
+      <price>2.0</price>
+      <quantity>1</quantity>
+      <releaseDate>12/4/202</releaseDate>
+      <genre>Horror</genre>
+      <ageRating>18</ageRating>
+    </Game>
+    <Game>
+      <platform>Nintendo Switch</platform>
+      <name>Mario</name>
+      <price>59.99</price>
+      <quantity>9</quantity>
+      <releaseDate>11/16/2022</releaseDate>
+      <genre>3</genre>
+      <ageRating>3</ageRating>
+    </Game>
+    <Game>
+      <platform>Nintendo Switch</platform>
+      <name>New Super Mario Bros U Deluxe</name>
+      <price>59.99</price>
+      <quantity>24</quantity>
+      <releaseDate>11/12/2018</releaseDate>
+      <genre>Platform, Kids</genre>
+      <ageRating>3</ageRating>
+    </Game>
+    <Accessories>
+      <platform>Xbox</platform>
+      <name>HyperX Cloud Headset</name>
+      <price>39.99</price>
+      <quantity>16</quantity>
+      <releaseDate>5/8/2020</releaseDate>
+      <AccessoryType>Headset</AccessoryType>
+    </Accessories>
+    <GameConsole>
+      <platform>Xbox</platform>
+      <name>Xbox Series S</name>
+      <price>259.99</price>
+      <quantity>10</quantity>
+      <releaseDate>10/9/2021</releaseDate>
+      <storageSize>500GB</storageSize>
+    </GameConsole>
+  </list>
+</object-stream>

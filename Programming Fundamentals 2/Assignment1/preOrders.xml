@@ -1,0 +1,14 @@
+<object-stream>
+  <list>
+    <PreOrders>
+      <game>The Legend of Zelda: Tears of the Kingdom</game>
+      <customer>Dion Kennedy</customer>
+      <price>69.99</price>
+      <day>12</day>
+      <month>5</month>
+      <year>2023</year>
+      <orderStatus>Pending</orderStatus>
+      <payment>10.0</payment>
+    </PreOrders>
+  </list>
+</object-stream>

@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.target=Game
+comment1.params=name\ platform\ price\ availability
+comment1.target=Game(java.lang.String,\ java.lang.String,\ double,\ java.lang.String)
+comment10.params=
+comment10.target=java.lang.String\ toString()
+comment2.params=
+comment2.target=java.lang.String\ getName()
+comment3.params=
+comment3.target=java.lang.String\ getPlatform()
+comment4.params=
+comment4.target=double\ getPrice()
+comment5.params=
+comment5.target=java.lang.String\ getAvailability()
+comment6.params=name
+comment6.target=void\ setName(java.lang.String)
+comment7.params=platform
+comment7.target=void\ setPlatform(java.lang.String)
+comment8.params=price
+comment8.target=void\ setPrice(double)
+comment9.params=availability
+comment9.target=void\ setAvailability(java.lang.String)
+numComments=11

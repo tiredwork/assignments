@@ -1,0 +1,10 @@
+<object-stream>
+  <list>
+    <Game>
+      <name>Pokémon Scarlet</name>
+      <platform>Nintendo Switch</platform>
+      <price>59.99</price>
+      <availability>In stock</availability>
+    </Game>
+  </list>
+</object-stream>

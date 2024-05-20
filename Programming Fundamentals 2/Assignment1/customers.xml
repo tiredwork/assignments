@@ -1,0 +1,40 @@
+<object-stream>
+  <list>
+    <Customer>
+      <name>Dion Kennedy</name>
+      <email>dion.kennedy.1@hotmail.com</email>
+      <phoneNo>09783488</phoneNo>
+      <address>Kilkenny, Ireland</address>
+      <regDay>13</regDay>
+      <regMonth>3</regMonth>
+      <regYear>2023</regYear>
+      <birthDay>30</birthDay>
+      <birthMonth>12</birthMonth>
+      <birthYear>2000</birthYear>
+    </Customer>
+    <Customer>
+      <name>Phil Collins</name>
+      <email>philclooins</email>
+      <phoneNo>phil.collins@gmail.com</phoneNo>
+      <address>USA</address>
+      <regDay>0</regDay>
+      <regMonth>0</regMonth>
+      <regYear>0</regYear>
+      <birthDay>0</birthDay>
+      <birthMonth>0</birthMonth>
+      <birthYear>0</birthYear>
+    </Customer>
+    <Customer>
+      <name>fdskjsdf</name>
+      <email>kjhdsfdsf</email>
+      <phoneNo>kjsdsfd@gkjhfds.com</phoneNo>
+      <address>kjhdskhdsa</address>
+      <regDay>12</regDay>
+      <regMonth>2</regMonth>
+      <regYear>0</regYear>
+      <birthDay>0</birthDay>
+      <birthMonth>0</birthMonth>
+      <birthYear>0</birthYear>
+    </Customer>
+  </list>
+</object-stream>

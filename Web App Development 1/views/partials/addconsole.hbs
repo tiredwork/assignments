@@ -1,0 +1,41 @@
+<form class="ui stacked segment form" action="/collection/{{id}}/addconsole" method="POST" enctype="multipart/form-data">
+  <div class="two fields">
+    <div class="field">
+      <label>Name</label>
+      <input type="text" name="name" autofocus required title = "Please include the name of the varient (e.g. Pikachu 3DS)"
+	  placeholder="Name of variant">
+    </div>
+    <div class="field">
+      <label>Type</label>
+      <input type="text" name="type" required title = "Please include the name of the console system (e.g. Nintendo 3DS)"
+	  placeholder="Console name">
+    </div>
+    <div class="field">
+      <label>Color</label>
+      <input type="text" name="color" required title = "Please include a color (e.g Yellow)"
+	  placeholder="Color">
+    </div>
+        <div class="field">
+      <label>Release Date</label>
+      <input type="text" name="release_date" required title = "Please include a release date (e.g. 2012-03-24)"
+	  placeholder="Release Date">
+    </div>
+    <div class="field">
+      <label>Is Bundle</label>
+      <select name="is_bundle" required title="Please select whether the console is part of a bundle">
+        <option value="true">Yes</option>
+        <option value="false">No</option>
+      </select>
+    </div>
+    <div class="field">
+      <label>Details</label>
+      <input type="text" name="details" required title = "Please include a description of the console, please be somewhat detailed"
+	  placeholder="Details">
+    </div>
+    <div class="field">
+      <label>Image</label>
+      <input placeholder="Image" type="file" name="picture" required title = "Please upload an image of the console">
+    </div>
+  </div>
+  <button class="ui blue submit button">Add Console</button>
+</form>

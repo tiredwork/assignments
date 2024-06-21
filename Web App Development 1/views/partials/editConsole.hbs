@@ -1,0 +1,89 @@
+<form class="ui stacked segment form hide" action="/collection/{{../id}}/updateconsole/{{id}}"
+method="POST">
+  <div class="item">
+    <i class="pencil icon">
+    </i>
+    <div class="content">
+      <strong>
+        Name:
+      </strong>
+      <input type="text" name="name" value="{{name}}">
+    </div>
+  </div>
+  <div class="item">
+    <i class="info circle icon">
+    </i>
+    <div class="content">
+      <strong>
+        Console:
+      </strong>
+      <input type="text" name="type" value="{{type}}">
+    </div>
+  </div>
+  <div class="item">
+    <i class="paint brush icon">
+    </i>
+    <div class="content">
+      <strong>
+        Color:
+      </strong>
+      <input type="text" name="color" value="{{color}}">
+    </div>
+  </div>
+  <div class="item">
+    <i class="calendar alternate icon">
+    </i>
+    <div class="content">
+      <strong>
+        Release Date:
+      </strong>
+      <input type="text" name="release_date" value="{{release_date}}">
+    </div>
+  </div>
+  <div class="item">
+    <i class="check circle icon">
+    </i>
+    <div class="content">
+      <strong>
+        Part of a bundle:
+      </strong>
+      <select name="is_bundle">
+        <option value="true" {{#if is_bundle}} selected {{/if}}>
+          Yes
+      </option>
+        <option value="false" {{#unless is_bundle}} selected {{/unless}}>
+          No
+        </option>
+      </select>
+    </div>
+  </div>
+  <div class="item">
+    <i class="file alternate icon">
+    </i>
+    <div class="content">
+      <strong>
+        Details:
+      </strong>
+      <input type="text" name="details" value="{{details}}">
+    </div>
+  </div>
+  <div class="item">
+    <i class="image icon">
+    </i>
+    <div class="content">
+      <strong>
+        Image URL:
+      </strong>
+      <input type="text" name="image" value="{{picture}}">
+    </div>
+  </div>
+  <br>
+  <div class="item">
+    <button type="submit" class="ui primary button">
+      Update
+    </button>
+    <a href="/collection/{{../id}}/deleteconsole/{{id}}" class="ui negative button">
+      Delete
+    </a>
+  </div>
+</form>

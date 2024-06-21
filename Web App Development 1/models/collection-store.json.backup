@@ -1,0 +1,154 @@
+{
+  "consoleCollection": [
+    {
+      "id": "01",
+      "title": "Nintendo",
+      "consoles": [
+        {
+          "id": 1,
+          "name": "Pikachu",
+          "type": "Nintendo 3DS",
+          "color": "Yellow",
+          "release_date": "2012-03-24",
+          "is_bundle": false,
+          "details": "Limited edition Pikachu-themed Nintendo 3DS XL handheld gaming console.",
+          "picture": "https://cdn.glitch.global/aac95dbd-a794-413f-a658-c6dd90117f66/pikachu-3dsxl.png?v=1709484192479"
+        },
+        {
+          "id": 2,
+          "name": "Super Mario 3D Land - Bundle",
+          "type": "Nintendo 3DS",
+          "color": "Red",
+          "release_date": "2011-11-13",
+          "is_bundle": true,
+          "details": "Bundle featuring Nintendo 3DS with Super Mario 3D Land game pre-installed.",
+          "picture": "https://cdn.glitch.global/aac95dbd-a794-413f-a658-c6dd90117f66/super-mario-3ds-red.png?v=1709484400706"
+        },
+        {
+          "id": 3,
+          "name": "Super Smash Bros. Ultimate - Bundle",
+          "type": "Nintendo Switch",
+          "color": "Black/Gray",
+          "release_date": "2018-11-16",
+          "is_bundle": true,
+          "details": "Special edition Super Smash Bros. Ultimate Nintendo Switch bundle featuring themed Joy-Con controllers and tablet, and a download code for the game.",
+          "picture": "https://cdn.glitch.global/aac95dbd-a794-413f-a658-c6dd90117f66/super-smash-bros-nintendo-switch.png?v=1709485227633"
+        },
+        {
+          "id": 4,
+          "name": "Animal Crossing: New Horizons",
+          "type": "Nintendo Switch",
+          "color": "Green/Blue",
+          "release_date": "2020-03-13",
+          "is_bundle": false,
+          "details": "Special edition Nintendo Switch console with Animal Crossing-themed design.",
+          "picture": "https://cdn.glitch.global/aac95dbd-a794-413f-a658-c6dd90117f66/animal-crossing-nintendo-switch.png?v=1709485163969"
+        },
+        {
+          "id": 5,
+          "name": "Pokémon Diamond & Pearl - Bundle",
+          "type": "Nintendo DS Lite",
+          "color": "Black",
+          "release_date": "2007-05-15",
+          "is_bundle": false,
+          "details": "Special edition Nintendo DS Lite with Pokémon Diamond and Pearl design, a DVD of the Pokémon Mystery Dungeon anime, and a special carry case.",
+          "picture": "https://cdn.glitch.global/aac95dbd-a794-413f-a658-c6dd90117f66/pokemon-diamond-pearl-ds-lite.png?v=1709485890966"
+        },
+        {
+          "id": 6,
+          "name": "Pokémon Black - Bundle",
+          "type": "Nintendo DSi",
+          "color": "Black",
+          "release_date": "2011-03-04",
+          "is_bundle": true,
+          "details": "Special edition Nintendo DSi featuring a Pokémon Black design with Reshiram and Zekrom, and a copy of Pokémon Black.",
+          "picture": "https://cdn.glitch.global/aac95dbd-a794-413f-a658-c6dd90117f66/pokemon-black-nintendo-dsi.png?v=1709486292237"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "Sony",
+      "consoles": [
+        {
+          "id": 7,
+          "name": "Final Fantasy VII Remake - Bundle",
+          "type": "PlayStation 4",
+          "color": "Black",
+          "release_date": "2020-04-10",
+          "is_bundle": true,
+          "details": "Special bundle featuring a limited edition Final Fantasy VII Remake-themed PlayStation 4 console and game.",
+          "picture": "https://cdn.glitch.global/aac95dbd-a794-413f-a658-c6dd90117f66/final-fantasay-ps4.png?v=1709487423393"
+        },
+        {
+          "id": 8,
+          "name": "Spider-Man",
+          "type": "PlayStation 4 Pro",
+          "color": "Red",
+          "release_date": "2018-09-07",
+          "is_bundle": false,
+          "details": "PlayStation 4 console with a Spider-Man-themed design.",
+          "picture": "https://cdn.glitch.global/aac95dbd-a794-413f-a658-c6dd90117f66/super-man-ps4-pro.png?v=1709488051762"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "Microsoft",
+      "consoles": [
+        {
+          "id": 9,
+          "name": "Halo 5: Guardians - Bundle",
+          "type": "Xbox One",
+          "color": "Green",
+          "release_date": "2015-10-27",
+          "is_bundle": true,
+          "details": "Limited edition Xbox One console released in conjunction with the game Halo 5: Guardians, containing a themed console and a copy of the game.",
+          "picture": "https://cdn.glitch.global/aac95dbd-a794-413f-a658-c6dd90117f66/halo-5-guardians-xbox-one.png?v=1709488215332"
+        },
+        {
+          "id": 10,
+          "name": "Cyberpunk 2077 - Bundle",
+          "type": "Xbox One X",
+          "color": "Custom",
+          "release_date": "2020-06-10",
+          "is_bundle": true,
+          "details": "Special edition Xbox One X bundle with Cyberpunk 2077-themed design and the game included.",
+          "picture": "https://cdn.glitch.global/aac95dbd-a794-413f-a658-c6dd90117f66/cyberpunk-2077-xbox-one-x.png?v=1709488489291"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "title": "Sega",
+      "consoles": [
+        {
+          "id": 11,
+          "name": "Sega Genesis Mini",
+          "type": "Sega Genesis Mini",
+          "color": "Black",
+          "release_date": "2019-09-19",
+          "is_bundle": false,
+          "details": "A miniature version of the classic Sega Genesis console pre-loaded with multiple games.",
+          "picture": "https://cdn.glitch.global/aac95dbd-a794-413f-a658-c6dd90117f66/sega-genesis-mini.png?v=1709488666904"
+        },
+        {
+          "id": 12,
+          "name": "Sega Saturn",
+          "type": "Sega Genesis",
+          "color": "Gray",
+          "release_date": "1994-11-22",
+          "is_bundle": false,
+          "details": "The fifth-generation video game console developed by Sega, featuring CD-ROM capabilities.",
+          "picture": "https://cdn.glitch.global/aac95dbd-a794-413f-a658-c6dd90117f66/sega-genesis.png?v=1709488857492"
+        }
+      ]
+    },
+    {
+      "id": "a7c94555-863d-4dc6-b637-9728d7238988",
+      "userid": "3ad52697-6d98-4d80-8273-084de55a86c0",
+      "title": "Test",
+      "consoles": []
+    }
+  ]
+}

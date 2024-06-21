@@ -1,0 +1,36 @@
+{
+  "users": [
+    {
+      "firstName": "Reggie",
+      "lastName": "Fils-Aimé",
+      "email": "reggie@retirednintendomembers.com",
+      "password": "passwordsarefortheweak",
+      "id": "2bda324f-77a8-432f-b988-8256c27aa701",
+      "picture": "http://res.cloudinary.com/dnclxyzbj/image/upload/v1714338611/mwxh3xn02fgdqfblnvnu.jpg"
+    },
+    {
+      "firstName": "Mary",
+      "lastName": "Lyng",
+      "email": "mlyng@setu.ie",
+      "password": "Trustno1",
+      "id": "9f319c82-b639-4bfe-8be7-ee70cf6527a3",
+      "picture": "http://res.cloudinary.com/dnclxyzbj/image/upload/v1714556336/znpz51eabsyn1sdb6iuh.png"
+    },
+    {
+      "firstName": "Mary",
+      "lastName": "Lyng",
+      "email": "mlyng@setu.ie",
+      "password": "Trustno1",
+      "id": "19f517f1-ff3a-418e-ab0a-b34bdecc486f",
+      "picture": "http://res.cloudinary.com/dnclxyzbj/image/upload/v1715252970/qplm8pzvp2ztzouhwy8a.png"
+    },
+    {
+      "firstName": "Mary",
+      "lastName": "Ryan",
+      "email": "mryan@setu.ie",
+      "password": "Trustno1",
+      "id": "838226a6-9b08-4e20-a0c8-822ef6be7476",
+      "picture": "http://res.cloudinary.com/dnclxyzbj/image/upload/v1715253002/gpachq1urxz1uatdqpnk.png"
+    }
+  ]
+}

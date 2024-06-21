@@ -1,0 +1,67 @@
+{{> menu}}
+
+<section class="ui center aligned middle aligned segment">
+  <h2 class="ui header">Welcome to the Rare Console Variations website, {{fullname}}!</h2>
+  <p>
+    This website will list and detail all of the rare console variations.
+  </p>
+  <img
+    src="https://cdn.glitch.global/aac95dbd-a794-413f-a658-c6dd90117f66/splash-image.jpg?v=1709492961857"
+    class="ui centered image">
+
+  <h1>
+      Take a look at some example collections or <a href="/database">view your own</a>.
+    </h1>
+  
+  <div class="ui four stackable cards" style="margin-top: 1em;">
+
+    {{#with info}}
+
+      <div class="card">
+        <a href="/collection/01" class="ui medium image button">
+          <img src="https://cdn.glitch.global/aac95dbd-a794-413f-a658-c6dd90117f66/nintendo.png?v=1709491696641" alt="Nintendo" class="ui centered">
+        </a>
+        <div class="content">
+          <div class="header">
+            Nintendo
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <a href="/collection/02" class="ui medium image button">
+          <img src="https://cdn.glitch.global/aac95dbd-a794-413f-a658-c6dd90117f66/sony.png?v=1709491764801" alt="Sony" class="ui centered">
+        </a>
+        <div class="content">
+          <div class="header">
+            Sony
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <a href="/collection/03" class="ui medium image button">
+          <img src="https://cdn.glitch.global/aac95dbd-a794-413f-a658-c6dd90117f66/microsoft.png?v=1709489826939" alt="Microsoft" class="ui centered">
+        </a>
+        <div class="content">
+          <div class="header">
+            Microsoft
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <a href="/collection/04" class="ui medium image button">
+          <img src="https://cdn.glitch.global/aac95dbd-a794-413f-a658-c6dd90117f66/atari.png?v=1709489941080" alt="Atari" class="ui centered">
+        </a>
+        <div class="content">
+          <div class="header">
+            Atari
+          </div>
+        </div>
+      </div>
+
+    {{/with}}
+
+  </div>
+</section><br>

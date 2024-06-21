@@ -1,0 +1,21 @@
+{{#if consoles}}
+
+  <div class="ui divided items">
+      
+    {{#each consoles}}
+      
+      <div class="item">
+        {{> listOneConsole collectionId=../id}}
+        {{> editConsole collectionId=../id}}
+      </div>
+                
+    {{/each}}
+    
+  </div>
+
+{{else}}
+  <h3 class="ui message">
+    Empty collection!
+  </h3>
+
+{{/if}}

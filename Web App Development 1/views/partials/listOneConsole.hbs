@@ -1,0 +1,62 @@
+  <div class="content center-text">
+    <div class="ui items">
+      <div class="item">
+        <div class="ui small image">
+          <a href="{{picture}}" data-lightbox="{{name}}" data-title="{{name}}">
+            <img src="{{picture}}" alt="{{name}}">
+          </a>
+        </div>
+        <div class="content">
+          <div class="header">
+            {{name}}
+          </div>
+          <div class="meta">
+            {{type}}
+          </div>
+          <div class="description">
+            <div class="ui list">
+              <div class="item">
+                <i class="info circle icon"></i>
+                <div class="content">
+                  <strong>Console:</strong> {{type}}
+                </div>
+              </div>
+              <div class="item">
+                <i class="paint brush icon"></i>
+                <div class="content">
+                  <strong>Color:</strong> {{color}}
+                </div>
+              </div>
+              <div class="item">
+                <i class="calendar alternate icon"></i>
+                <div class="content">
+                  <strong>Release Date:</strong> {{release_date}}
+                </div>
+              </div>
+              {{#if is_bundle}}
+              <div class="item">
+                <i class="check circle icon" style="color: green"></i>
+                <div class="content">
+                  <strong>Part of a bundle:</strong> Yes
+                </div>
+              </div>
+              {{else}}
+              <div class="item">
+                <i class="times circle icon" style="color: red;"></i>
+                <div class="content">
+                  <strong>Part of a bundle:</strong> No
+                </div>
+              </div>
+              {{/if}}
+              <div class="item">
+                <i class="file alternate icon"></i>
+                <div class="content">
+                  <strong>Details:</strong> {{details}}
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>

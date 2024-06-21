@@ -1,0 +1,40 @@
+<section class="ui left aligned middle aligned segment">
+
+  <h2>Personal Collection</h2>
+
+  {{#unless collections}}
+    <h3 class="ui message">
+      Start adding your collections!
+    </h3>
+  {{/unless}}
+  {{#each collections}}
+    <section class="ui left aligned middle aligned segment">
+      <div class="image">
+        <img src="{{picture}}" width="100%"/>
+      </div>
+      <h3 class="ui header">
+        {{title}}
+      </h3>
+
+      {{#if consoles}}
+        <p>
+          Total consoles:
+          {{consoles.length}}
+        </p>
+
+      {{else}}
+        <p>
+          Empty collection!
+        </p>
+      {{/if}}
+
+      <a href="/collection/{{id}}" class="ui icon button">
+        <i class="open folder icon"></i>
+      </a>
+      <a href="/database/deletecollection/{{id}}" class="ui icon button">
+        <i class="trash icon"></i>
+      </a>
+    </section>
+  {{/each}}
+
+</section>
